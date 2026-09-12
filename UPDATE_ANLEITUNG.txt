@@ -1,42 +1,27 @@
-PA Lerntrainer – GitHub Pages (Version 2)
+PA LERNTRAINER – UPDATE V3
+==========================
 
-Diese Version enthält plausiblere Multiple-Choice-Antworten, kürzere Auswahltexte und einen erweiterten Terminologie-Bereich mit deutschen Bedeutungen sowie mehr Präfix-/Suffix-Beispielen.
+Dieses Update behebt die Lesbarkeit der Multiple-Choice-Auswertung:
+- Bei grün (richtig) und rot (falsch) hinterlegten Antworten ist die Schrift nun immer schwarz.
+- Das gilt auch, wenn iPhone/Browser den Dunkelmodus verwendet.
+- Mehrteilige Antwortmöglichkeiten werden jetzt wie die Musterantwort als Stichpunkte dargestellt.
+- Dadurch sind längere Multiple-Choice-Antworten auf Smartphone und Desktop leichter lesbar.
+- Der Offline-Cache wurde auf Version 3 erhöht, damit Geräte die Änderung zuverlässig laden.
 
-#Bestehendes Repository aktualisieren
-
-Repository: cryptarian/PAPruefung_15_09_26
-
+BESTEHENDES GITHUB-REPOSITORY AKTUALISIEREN
+--------------------------------------------
 1. Diese ZIP-Datei entpacken.
-2. Auf GitHub dein Repository PAPruefung_15_09_26 öffnen.
-3. **Add file → Upload files** wählen.
-4. Diese Dateien aus dem entpackten Ordner hochladen:
-   - index.html
-   - sw.js
-   - manifest.webmanifest
-   - icon-192.png
-   - icon-512.png
-   - .nojekyll
-5. Wenn GitHub meldet, dass Dateien bereits vorhanden sind, ist das richtig: die neuen Dateien ersetzen die alten nach dem Commit.
-6. Unten bei **Commit changes** z. B. Lerntrainer v2 eintragen und bestätigen.
-7. GitHub Pages baut die Seite automatisch neu. Meist dauert das nur wenige Minuten.
+2. GitHub öffnen und das bestehende Repository PAPruefung_15_09_26 aufrufen.
+3. „Add file“ -> „Upload files“ wählen.
+4. ALLE Dateien aus diesem entpackten Ordner hineinziehen.
+5. Wenn GitHub fragt bzw. Dateien bereits vorhanden sind: die neuen Versionen übernehmen/ersetzen.
+6. Unten bei Commit message z. B. „Lerntrainer v3 – MC Lesbarkeit“ eingeben.
+7. „Commit changes“ anklicken.
+8. GitHub Pages aktualisiert die bestehende Website automatisch. Die URL bleibt gleich.
 
-Deine Adresse bleibt gleich:
-https://cryptarian.github.io/PAPruefung_15_09_26/
-
-#Falls das iPhone noch die alte Version zeigt
-
-Die Web-App nutzt einen Offline-Cache. sw.js wurde deshalb auf Cache-Version pa-lerntrainer-v2 gestellt.
-
-Wenn trotzdem noch die alte Version erscheint:
-1. Safari-Seite einmal neu laden.
-2. Bei einer zum Home-Bildschirm hinzugefügten App: App vollständig schließen und neu öffnen.
-3. Notfalls das alte Home-Bildschirm-Symbol entfernen, die Website einmal in Safari öffnen und anschließend erneut **Teilen → Zum Home-Bildschirm** wählen.
-
-#Was sich geändert hat
-
-- Multiple-Choice-Antworten sind kürzer und ähnlich lang.
-- Falsche Antworten stammen bevorzugt aus demselben Teilgebiet oder verwenden bewusst vertauschte Fachbegriffe/Zahlen.
-- Die vollständige Musterantwort wird erst nach der Auswahl eingeblendet.
-- Terminologie enthält zusätzliche Übersetzungsfragen und mehr Beispiele zu Präfixen/Suffixen.
-- Fachbegriffe werden im Terminologie-Bereich möglichst direkt auf Deutsch erklärt.
-- Service Worker aktualisiert, damit neue Versionen auf Smartphones zuverlässiger erscheinen.
+WICHTIG AUF DEM IPHONE
+----------------------
+Da die Web-App offline zwischengespeichert wird, kann kurzzeitig noch die alte Version erscheinen.
+- Safari: Website öffnen und einmal neu laden.
+- Home-Screen-App: komplett schließen und erneut öffnen.
+- Falls weiterhin alt: die Seite zunächst direkt in Safari öffnen und neu laden. Durch den neuen Cache „v3“ wird die alte App-Version anschließend ersetzt.

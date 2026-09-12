@@ -1,3 +1,7 @@
+## Update v3 – Multiple-Choice-Lesbarkeit
+
+Bei der Auswertung werden richtige/falsche Antwortoptionen nun mit schwarzer Schrift auf heller grüner/roter Hinterlegung dargestellt. Mehrteilige Antwortmöglichkeiten erscheinen als Stichpunkte wie in der Musterantwort. Der Service-Worker-Cache wurde auf v3 erhöht.
+
 # PA Lerntrainer – GitHub Pages (Version 2)
 
 Diese Version enthält plausiblere Multiple-Choice-Antworten, kürzere Auswahltexte und einen erweiterten Terminologie-Bereich mit deutschen Bedeutungen sowie mehr Präfix-/Suffix-Beispielen.
