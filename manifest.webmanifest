@@ -1,7 +1,7 @@
 {
   "name": "PA Lerntrainer – Prüfungsvorbereitung",
   "short_name": "PA Lerntrainer",
-  "description": "Mobiler Pflegeassistenz-Lerntrainer mit freien Antworten und anspruchsvollerem Multiple Choice.",
+  "description": "Mobiler Pflegeassistenz-Lerntrainer mit 138 Fragen aus der neuesten Lernvorlage.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

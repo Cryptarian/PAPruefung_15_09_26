@@ -1,27 +1,11 @@
-PA LERNTRAINER – UPDATE V3
-==========================
+PA LERNTRAINER – UPDATE v5
 
-Dieses Update behebt die Lesbarkeit der Multiple-Choice-Auswertung:
-- Bei grün (richtig) und rot (falsch) hinterlegten Antworten ist die Schrift nun immer schwarz.
-- Das gilt auch, wenn iPhone/Browser den Dunkelmodus verwendet.
-- Mehrteilige Antwortmöglichkeiten werden jetzt wie die Musterantwort als Stichpunkte dargestellt.
-- Dadurch sind längere Multiple-Choice-Antworten auf Smartphone und Desktop leichter lesbar.
-- Der Offline-Cache wurde auf Version 3 erhöht, damit Geräte die Änderung zuverlässig laden.
+1. ZIP entpacken.
+2. GitHub → Repository PAPruefung_15_09_26 öffnen.
+3. Add file → Upload files.
+4. ALLE Dateien aus dem entpackten Ordner hineinziehen.
+5. Commit changes bestätigen.
+6. Kurz warten und die bestehende GitHub-Pages-Adresse neu laden.
 
-BESTEHENDES GITHUB-REPOSITORY AKTUALISIEREN
---------------------------------------------
-1. Diese ZIP-Datei entpacken.
-2. GitHub öffnen und das bestehende Repository PAPruefung_15_09_26 aufrufen.
-3. „Add file“ -> „Upload files“ wählen.
-4. ALLE Dateien aus diesem entpackten Ordner hineinziehen.
-5. Wenn GitHub fragt bzw. Dateien bereits vorhanden sind: die neuen Versionen übernehmen/ersetzen.
-6. Unten bei Commit message z. B. „Lerntrainer v3 – MC Lesbarkeit“ eingeben.
-7. „Commit changes“ anklicken.
-8. GitHub Pages aktualisiert die bestehende Website automatisch. Die URL bleibt gleich.
-
-WICHTIG AUF DEM IPHONE
-----------------------
-Da die Web-App offline zwischengespeichert wird, kann kurzzeitig noch die alte Version erscheinen.
-- Safari: Website öffnen und einmal neu laden.
-- Home-Screen-App: komplett schließen und erneut öffnen.
-- Falls weiterhin alt: die Seite zunächst direkt in Safari öffnen und neu laden. Durch den neuen Cache „v3“ wird die alte App-Version anschließend ersetzt.
+Wichtig auf iPhone:
+Wenn noch die alte Version sichtbar ist, Safari bzw. die Home-Screen-App komplett schließen und erneut öffnen. Der Service-Worker-Cache wurde auf v5 erhöht.
