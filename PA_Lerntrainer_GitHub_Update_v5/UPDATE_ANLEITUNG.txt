@@ -1,0 +1,11 @@
+PA LERNTRAINER – UPDATE v5
+
+1. ZIP entpacken.
+2. GitHub → Repository PAPruefung_15_09_26 öffnen.
+3. Add file → Upload files.
+4. ALLE Dateien aus dem entpackten Ordner hineinziehen.
+5. Commit changes bestätigen.
+6. Kurz warten und die bestehende GitHub-Pages-Adresse neu laden.
+
+Wichtig auf iPhone:
+Wenn noch die alte Version sichtbar ist, Safari bzw. die Home-Screen-App komplett schließen und erneut öffnen. Der Service-Worker-Cache wurde auf v5 erhöht.
